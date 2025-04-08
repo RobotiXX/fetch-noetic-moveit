@@ -124,7 +124,7 @@ SCENE.add_object(desk)
 move_group = MoveGroupInterface("arm_with_torso", "base_link")
 ```
 
-With MoveIt!, you can control the robot whole body in joint level, for example
+With MoveIt!, you can control the robot whole body on joint level, for example
 
 ```sh
 joint_names = ["torso_lift_joint", "shoulder_pan_joint",
